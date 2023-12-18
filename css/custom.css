@@ -1933,3 +1933,253 @@ bordered th {
   font-family: 'Open Sans', sans-serif;
 }
 /********Table css for program-detail********/
+
+/* calendar*/
+.meeting-wraper {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.month-year-col {
+  display: flex;
+}
+.catg-wrap select {
+  min-width: 235px;
+}
+label.title {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reset {
+  display: flex;
+  align-items: center;
+}
+.reset img {
+  vertical-align: unset;
+  margin-left: 3px;
+  max-width: 10px;
+}
+.accordion_era {
+  margin-bottom: 60px;
+}
+.filterWrap-meet {
+  margin-bottom: 35px;
+}
+.month-year-col {
+  display: flex;
+}
+.catg-wrap select {
+  min-width: 300px;
+}
+.month-year-col {
+  display: flex;
+}
+.month-year-col select {
+  margin-right: 6px;
+  min-width: 160px;
+}
+.back_next_posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.back_next_posts a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #64666A;
+}
+.back_next_posts h3 {
+  color: #000000;
+  margin: 0px;
+}
+.container-sm {
+  max-width: 950px !important;
+}
+.main_acco_title {
+  display: flex;
+  border-radius: 0px;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+.main_acco_title.active {
+  box-shadow:none;
+}
+.main_acco_title .date_meet {
+  background: #F8F8F8;
+  color: #1D315F;
+  min-width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0px;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 25px;
+}
+.main_acco_title .date_meet span {
+  display: block;
+  font-weight: normal;
+}
+.main_acco_title .acco_title_info {
+  flex-grow: 1;
+  padding: 15px 20px;
+}
+.main_acco_title .acco_title_info h5 {
+  margin: 0px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+    font-size: 22px;
+}
+.main_acco_title .acco_title_info p {
+  margin: 0px;
+  font-size: 16px;
+}
+.main_acco_title .accosign {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.main_acco_title .accosign img {
+  max-width: 18px;
+}
+.main_acco_title.active .accosign img {
+  transform: rotate(180deg);
+}
+.main_acco_title:hover {
+  background-color:#0070AF;
+}
+.main_acco_title:hover h5,
+.main_acco_title:hover p,
+.main_acco_title:hover .cancel-info {
+  color: #fff;
+}
+.main_acco_title:hover .accosign img {
+  filter: brightness(0) invert(1);
+}
+.acco_panel {
+  display: none;
+  background: #fff;
+  padding: 25px;
+}
+.acco_panel h4 {
+  font-size: 20px;
+}
+.acco_panel h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.acco_panel p.address {
+  font-size: 16px;
+  color: #0070AF;
+  font-weight: bold;
+}
+.acco_panel .document_era {
+  margin-bottom: 20px;
+}
+.acco_panel .document_era h5 {
+  margin-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+.acco_panel .document_era .doc_block {
+  text-decoration: underline;
+}
+.accordion_block {
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 10px #0000001A;
+}
+.cancel-info {
+  color: #C70000;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.top-tabs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 2px solid #003857;
+  margin-bottom: 35px;
+}
+.top-tabs ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top-tabs ul li a.active {
+  background: #003857;
+  color: #ffffff;
+}
+.top-tabs ul li a {
+  background: #D8DEE4;
+  border: 1px solid #0A4E90;
+  padding: 10px 30px;
+  font-size: 18px;
+  min-width: 220px;
+  display: flex;
+  min-height: 55px;
+  align-items: center;
+  color: #003857;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+.calendar-txt{
+  
+  position: relative;
+  padding-left: 30px;
+}
+p.calendar-txt a{
+  color: #0070AF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+p.calendar-txt a:hover{
+  color: #003857;
+  text-decoration: underline;
+}
+.calendar-txt::before{
+  content: '';
+  position: absolute;
+  background-image: url(../images/icon_calendar.svg);
+  background-repeat: 0 0;
+  top:0;
+  left: 0;
+  width: 21px;
+  height: 25px;
+}
+.meeting_right{
+  padding: 30px 20px;
+  background-color: #F8F8F8;
+}
+.meeting_right h5{
+  font-family: 'Work Sans', sans-serif;
+  color: #003857;
+  font-size: 22px;
+  font-weight: 700;
+}
+.meeting_right p{
+  color: #000000;
+  font-size: 16px;
+}
+.meeting_right p a{
+  color: #0070AF;
+  font-weight: bold;
+}
+.meeting_right p a:hover{
+  color: #003857;
+  text-decoration: underline;
+}
+/* meeting ends*/

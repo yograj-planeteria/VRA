@@ -111,7 +111,12 @@
                 font-size: 34px;
             }
             .main_acco_title {
-                padding-top: 40px;
+                margin-top: 25px;
+            }
+            .main_acco_title .accosign {
+                position: absolute;
+                top: 15px;
+                right: 10px;
             }
             .title-row .backlink {
                 position: static;
