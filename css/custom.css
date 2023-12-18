@@ -834,14 +834,14 @@ a.viewlearn::after{
   overflow: hidden;
 }
 .newscard:hover .newsimg img {
-  -webkit-transform: scale(1.2);
+  /* -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.2); */
 }
 .newsimg img {
-  -webkit-transition: all 0.7s;
+ /*  -webkit-transition: all 0.7s;
   -o-transition: all 0.7s;
-  transition: all 0.7s;
+  transition: all 0.7s; */
   width: 100%;
 }
 .newsBody {
@@ -1806,6 +1806,7 @@ a.btn_learn::after{
   border-top: 0;
   padding: 20px 20px;
   background: #ffffff;
+  box-shadow: 0px 5px 10px #0000001A;
 }
 
 .resultWraper .searchFilterBlock {
@@ -1897,3 +1898,25 @@ a.btn_learn::after{
 }
 
 /********Result page end css********/
+
+/********Table css for program-detail********/
+.headtablecolor thead tr th{
+  background-color: #003857;
+  color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+}
+.table-bordered {
+  border: 1px solid #325f78;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #325f78;
+}
+bordered th {
+  border: 1px solid #325f78;
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid #325f78;
+  font-family: 'Open Sans', sans-serif;
+}
+/********Table css for program-detail********/
