@@ -664,7 +664,7 @@ img {
 /******custom Scroll css******/
 .eventtopTitle {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 37px;
   position: relative;
 }
 .eventtopTitle h2 {
@@ -1734,7 +1734,17 @@ a.btn_learn::after{
   color: #000000;
   font-family: 'Open Sans', sans-serif;
 }
-.topTitle2::after {
+.topTitle_left {
+  text-align: left;
+  margin-bottom: 40px;
+  position: relative;
+}
+.topTitle_left::after {
+  content: '';
+  position: absolute;
+  width: 33px;
+  height: 5px;
+  background-color: #003857;
   left: 0;
 }
 
@@ -1900,6 +1910,9 @@ a.btn_learn::after{
 /********Result page end css********/
 
 /********Table css for program-detail********/
+.bgcontainer{
+  background-color: #F8F8F8;
+}
 .headtablecolor thead tr th{
   background-color: #003857;
   color: #ffffff;
