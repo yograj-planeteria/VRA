@@ -1062,7 +1062,7 @@ a.btn_learn::after{
   position: relative;
   z-index: 9;
   display: table;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .generic_middle_block {
@@ -2182,4 +2182,56 @@ p.calendar-txt a:hover{
   color: #003857;
   text-decoration: underline;
 }
+.main-tabs ul.nav-tabs {
+  margin-bottom: 40px;
+  border-bottom: 2px solid #003857;
+  justify-content: center;
+}
+.main-tabs ul.nav-tabs li a.active {
+  background-color: #003857;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #003857;
+}
+.main-tabs ul.nav-tabs li a {
+  background-color:#F8F8F8;
+  border: 1px solid #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  color: #003857;
+  padding: 16px 30px;
+  border-radius: 0px;
+  font-size: 18px;
+}
+.nav-tabs .nav-link:hover {
+  border-color: #ffffff #ffffff #ffffff;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 0px;
+}
 /* meeting ends*/
+
+/******event-detail start*******/
+.event_panel {
+  /* display: none; */
+  background: #fff;
+  padding: 25px;
+}
+.event_panel h4 {
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+.event_panel h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.event_panel .address{
+  font-family: 'Open Sans', sans-serif;
+  color: #0070AF;
+  font-weight: bold;
+}
+/******event-detail end*******/
