@@ -102,7 +102,30 @@
                 transform: none;
                 top: 42%;
             }
-            /********/
+
+            /******newsevent start***/
+
+            .news_event .filterBlocks {
+                display: block;
+            }
+            .filterBlocks .padding-r-0{
+                padding-right: 15px;
+              }
+              .filterBlocks .padding-l-0{
+                padding-left: 15px;
+              }
+              .news_event .search_filter_title {
+                grid-template-columns: none;
+            }
+            .news_event .search_filter_title .filterWrap {
+                grid-template-columns: none;
+            }
+            .news_event .newsSort {
+                margin-left: 0;
+            }
+            /******newsevent end***/
+
+            /****above css new****/
 
             h2 {
                 font-size: 24px;
