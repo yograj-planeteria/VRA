@@ -2217,8 +2217,11 @@ p.calendar-txt a:hover{
 .event_panel {
   /* display: none; */
   background: #fff;
-  padding: 25px;
 }
+.evt_slider .owl-dots{
+  display: none;
+}
+
 .event_panel h4 {
   font-size: 20px;
   padding-bottom: 6px;
@@ -2234,6 +2237,55 @@ p.calendar-txt a:hover{
   color: #0070AF;
   font-weight: bold;
 }
+
+/***Slider start*****/
+.event-details {
+  /* padding: 0 25px; */
+}
+.event-details h3 {
+  font-family: 'Work Sans', sans-serif;
+  color: #1D315F;
+  font-weight: bold;
+  font-size: 18px;
+}
+.evt_slider {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.slider-news {
+}
+.post-slide {
+  margin-right: 10px;
+  text-align: center;
+}
+.post-slide h4 {
+  color: #000;
+}
+.slider-news .owl-prev {
+  position: absolute;
+  left: -30px;
+  top: 20%;
+  transform: translateY(-50%);
+  background-image: url(../images/arrow-down.svg) !important;
+  transform: rotate(90deg);
+  width: 23px;
+    height: 15px;
+  background-repeat: no-repeat !important;
+}
+.slider-news .owl-next {
+  position: absolute;
+  right: -20px;
+  top: 20%;
+  transform: translateY(-50%);
+  background-image: url(../images/arrow-down.svg) !important;
+  transform: rotate(270deg);
+  width: 23px;
+    height: 15px;
+  background-repeat: no-repeat !important;
+}
+/***Slider end*****/
 /******event-detail end*******/
 
 /******News events start*******/
