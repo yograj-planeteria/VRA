@@ -808,7 +808,7 @@ a.viewlearn::after{
 .newsColumn {
   padding: 0px 5px;
   margin-bottom: 10px;
-  height: 100%;
+  /* height: 100%; working good for news-event page when height is none */
 }
 .news-grid {
   display: flex;
@@ -2384,7 +2384,6 @@ p.calendar-txt a:hover{
 }
 .news_content{
   box-shadow: 0px 5px 10px #0000001A;
-  margin-bottom: 30px;
 }
 .news_content .newsBody{
   padding: 25px;
@@ -2402,10 +2401,102 @@ p.calendar-txt a:hover{
   top: 0;
   font-family: 'Open Sans', sans-serif;
 }
-.news_content .newsBody .newsbody_inner{
-  padding-top: 30px;
+
+
+.newsRow .newsColumn {
+  width: 33.3%;
+  padding: 0px 12px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.newsRow .newscolLg {
+  width: 100%;
+  margin-bottom: 50px;
 }
 
+.news_content {
+  background: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 100%;
+}
+.horizontalCard {
+  background-color: #fff;
+}
+.newsimg img {
+  width: 100%;
+}
+.horizontalCard .newsBody {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontalCard .newsbody_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.news_content a{
+  text-decoration: none;
+}
+.news_content:hover{
+  background-color: #0070AF;
+}
+.news_content a:hover .newsinfo .newsBody .newsbody_inner h3,
+.news_content a:hover .newsinfo .newsBody .newsbody_inner h5,
+.news_content a:hover .newsinfo .newsBody .newsbody_inner p{
+  color: #ffffff;
+}
+
+.newsbody_inner h6 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.newsbody_inner h3 {
+  margin-bottom: 5px;
+  font-family: 'Work Sans', sans-serif;
+  color: #003857;
+  font-size: 22px;
+  font-weight: bold;
+}
+.newsbody_inner h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.main_wrapper p {
+  margin-bottom: 20px;
+}
+.newsColumn.no-img a, .newsColumn.no-img .newsinfo, .newsColumn.no-img .newsBody {
+  height: 100%;
+  display: block;
+}
+.newsColumn.no-img .newsbody_inner {
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.news_content .newsimg{
+  position: relative;
+}
+.news_content .newsimg .category {
+  background: #003857;
+  color: #fff;
+  text-align: center;
+  padding: 8px 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+}
 /******News events end*******/
 
 /********************News details start*************/

@@ -124,6 +124,9 @@
             .news_event .newsSort {
                 margin-left: 0;
             }
+            .horizontalCard .newsbody_inner {
+                padding-top: 32px;
+            }
             /******newsevent end***/
 
             /****above css new****/
