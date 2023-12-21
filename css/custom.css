@@ -2384,3 +2384,56 @@ p.calendar-txt a:hover{
 }
 /******News events end*******/
 
+/********************News details start*************/
+.txtlink{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #0070AF;
+  font-weight: bold;
+}
+.txtlink:hover{
+  text-decoration: underline;
+}
+.media_icons {
+  display: flex;
+  align-items: center;
+}
+.media_icons span {
+  color: #1D315F;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.media_icons ul {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+.media_icons ul li {
+  margin: 0px 2px;
+}
+.media_icons a img {
+  filter: brightness(0) invert(1);
+}
+.media_icons a {
+  padding: 7px 9px;
+  display: block;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: #0070AF;
+}
+.media_icons a img {
+  max-width: 24px;
+  max-height: 18px;
+}
+.media_icons a:hover {
+  background: #003857;
+}
+/********************News details end*************/
+
