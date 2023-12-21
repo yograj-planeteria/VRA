@@ -18,7 +18,8 @@
                 bottom: 0;
             }
             .text-img-wrap {
-                height: 493px;
+                /* height: 493px; */
+                height: auto;
             }
             .img_text_card_col {
                 margin-bottom: 24px;

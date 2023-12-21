@@ -2382,6 +2382,30 @@ p.calendar-txt a:hover{
 .filterBlocks .padding-l-0{
   padding-left: 0;
 }
+.news_content{
+  box-shadow: 0px 5px 10px #0000001A;
+  margin-bottom: 30px;
+}
+.news_content .newsBody{
+  padding: 25px;
+  position: relative;
+}
+.news_content .newsBody .category {
+  background: #003857;
+  color: #fff;
+  text-align: center;
+  padding: 8px 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.news_content .newsBody .newsbody_inner{
+  padding-top: 30px;
+}
+
 /******News events end*******/
 
 /********************News details start*************/
