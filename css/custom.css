@@ -2604,3 +2604,36 @@ p.calendar-txt a:hover{
 }
 /********************News details end*************/
 
+
+/********************Contact start*************/
+.cont-descr{
+  padding-top: 20px;
+}
+.cont-descr h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  align-items: center;
+    display: flex;
+}
+.cont-descr h5 img{
+  margin-right: 10px;
+}
+.form-section{
+  background-color: #F8F8F8;
+    padding: 25px 40px;
+    margin-top: 20px;
+}
+.form-section .dt-section{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.contact-form{
+  text-align: center;
+}
+/********************Contact end*************/
+
