@@ -1521,7 +1521,7 @@ a.btn_learn::after{
 }
 .expanding-grid .links > li .active .plus-minus_icon:after {
   content: "-";
-  color: #fff;
+  color: #0070AF;
 }
 
 .expanding-grid a.active .expand_box {
